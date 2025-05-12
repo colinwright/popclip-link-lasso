@@ -1,0 +1,14 @@
+{
+  "Extension Name": "Open All Links",
+  "Extension Identifier": "com.colinwright.openalllinks",
+  "Actions": [
+    {
+      "Title": "Extract & Open URLs",
+      "Image File": "linksearch_icon.png",
+      "Script Interpreter": "/bin/bash",
+      "Shell Script File": "open_links.sh",
+      "Requirements": ["text"],
+      "Capture HTML": true
+    }
+  ]
+}
