@@ -1,0 +1,15 @@
+{
+  "Extension Name": "Link Lasso",
+  "Extension Identifier": "com.colinwright.linklasso",
+  "Description": "Scans selected text for all URLs and opens each one in a new tab.",
+  "Actions": [
+    {
+      "Title": "Lasso Links",
+      "Image File": "linklasso_icon.png",
+      "Script Interpreter": "/bin/bash",
+      "Shell Script File": "link_lasso.sh",
+      "Requirements": ["text"],
+      "Capture HTML": true
+    }
+  ]
+}
